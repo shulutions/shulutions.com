@@ -1,0 +1,140 @@
+{
+	"id": "74eabd4a-e916-045c-1387-a12afcae379b",
+	"name": "Shulutions",
+	"description": "",
+	"order": [
+		"57282a0d-a169-b7bb-4ff5-4d6a758d0cac",
+		"afefe65b-30e9-41c0-6a4c-1e31b120ba0f",
+		"b10ff83c-736b-8198-ab31-9673cbf77143",
+		"bd4b162b-6aed-bb88-d5ca-0c5962c62fbd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1637311203281,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "57282a0d-a169-b7bb-4ff5-4d6a758d0cac",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/users/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1637314551989,
+			"name": "Create user",
+			"description": "",
+			"collectionId": "74eabd4a-e916-045c-1387-a12afcae379b",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"Ross Feeley\",\n\t\"username\": \"ross\",\n\t\"email\": \"ross@gmail.com\",\n\t\"password\": \"a\"\n}"
+		},
+		{
+			"id": "afefe65b-30e9-41c0-6a4c-1e31b120ba0f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/users/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74eabd4a-e916-045c-1387-a12afcae379b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1637314543289,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\": \"Ross Feeley\",\n\t\"username\": \"ross\",\n\t\"email\": \"ross@gmail.com\",\n\t\"password\": \"a\"\n}"
+		},
+		{
+			"id": "b10ff83c-736b-8198-ab31-9673cbf77143",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/users/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "74eabd4a-e916-045c-1387-a12afcae379b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Update user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1637314633871,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\": \"Ross Feeley\",\n\t\"username\": \"rossfeeley\"\n}"
+		},
+		{
+			"id": "bd4b162b-6aed-bb88-d5ca-0c5962c62fbd",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/users/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "74eabd4a-e916-045c-1387-a12afcae379b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1637314805341,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\": \"ross@gmail.com\",\n\t\"password\": \"a\"\n}"
+		}
+	]
+}

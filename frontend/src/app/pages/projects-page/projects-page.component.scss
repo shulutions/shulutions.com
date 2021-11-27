@@ -1,0 +1,41 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections {
+    .section:nth-child(even) {
+        background-color: rgb(247, 247, 247);
+    }
+}
+
+.section {
+    padding: 100px 12vw;
+}
+
+.no-marin {
+    margin: 0;
+}
+
+.divider {
+    height: 20px;
+}
+
+.button-container {
+    margin-top: 50px;
+}
+
+.button {
+    width: auto;
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px 30px;
+    font-size: x-large;
+    transition: all 0.3s;
+    
+    &:hover {
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+}
